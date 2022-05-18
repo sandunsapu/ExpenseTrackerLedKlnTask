@@ -35,7 +35,7 @@ const Image = styled.img`
 function App() {
   return (
     <Container>
-      <Image src="%PUBLIC_URL%/images/LEDlogo.png"/>
+      <Image src={process.env.PUBLIC_URL+"images/LElogo.png"}/>
       <Header>Expense Tracker LED KLN</Header>
       <HomeComponent/>
     </Container>
