@@ -41,13 +41,13 @@ const SideMenuComp = (props) => {
     return (
         <Container>
             <MenuContainer isSelected={props.selectedTab === "home"} onClick={() => onMenuClick("home")}>
-                <MenuImage src="/images/wallet.png"/>
+                <MenuImage src="//public/images/wallet.png"/>
             </MenuContainer>
             <MenuContainer isSelected={props.selectedTab === "categories"} onClick={() => onMenuClick("categories")}>
-                <MenuImage src="/images/tag.png"/>
+                <MenuImage src="//public/images/tag.png"/>
             </MenuContainer>
             <MenuContainer isSelected={props.selectedTab === "reports"} onClick={() => onMenuClick("reports")}>
-                <MenuImage src="/images/pie-chart.png"/>
+                <MenuImage src="//public/images/pie-chart.png"/>
             </MenuContainer>
         </Container>
     );

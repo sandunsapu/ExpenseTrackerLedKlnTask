@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import HomeComponent from "./modules/home";
 import react from "react";
+import SideMenuComp from "..//src/components/SideMenuComp"
 
 const Container = styled.div`
   background-color: white;
@@ -29,7 +30,7 @@ const Header=styled.div`
 function App() {
   return (
     <Container>
-      
+      <SideMenuComp/>
       <Header>Expense Tracker LED KLN</Header>
       <HomeComponent/>
     </Container>
