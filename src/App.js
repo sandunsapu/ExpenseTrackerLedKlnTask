@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import HomeComponent from "./modules/home";
 import react from "react";
-import SideMenuComp from "..//src/components/SideMenuComp"
 
 const Container = styled.div`
   background-color: white;
@@ -27,10 +26,16 @@ const Header=styled.div`
   font-weight: bold;
 `;
 
+const Image = styled.img`
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+`;
+
 function App() {
   return (
     <Container>
-      <SideMenuComp/>
+      <Image src="../public/images/LEDlogo.png"/>
       <Header>Expense Tracker LED KLN</Header>
       <HomeComponent/>
     </Container>
