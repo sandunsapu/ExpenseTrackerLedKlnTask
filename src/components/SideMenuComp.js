@@ -3,7 +3,7 @@ import React from "react";
 
 const Container = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   height: 100%;
   width: 90px;
