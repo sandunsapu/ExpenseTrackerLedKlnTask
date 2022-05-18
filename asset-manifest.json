@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ExpenseTrackerLedKlnTask/static/css/main.e6c13ad2.css",
+    "main.js": "/ExpenseTrackerLedKlnTask/static/js/main.a58434c3.js",
+    "index.html": "/ExpenseTrackerLedKlnTask/index.html",
+    "main.e6c13ad2.css.map": "/ExpenseTrackerLedKlnTask/static/css/main.e6c13ad2.css.map",
+    "main.a58434c3.js.map": "/ExpenseTrackerLedKlnTask/static/js/main.a58434c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.a58434c3.js"
+  ]
+}
