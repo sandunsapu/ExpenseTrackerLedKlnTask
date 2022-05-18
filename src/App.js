@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import HomeComponent from "./modules/home";
 import react from "react";
+import pic from "./LEDlogo.png";
 
 const Container = styled.div`
   background-color: white;
@@ -27,15 +28,15 @@ const Header=styled.div`
 `;
 
 const Image = styled.img`
-  width: 64px;
-  height: 64px;
+  width: 128px;
+  height: 128px;
   object-fit: cover;
 `;
 
 function App() {
   return (
     <Container>
-      <Image src={process.env.PUBLIC_URL+"images/LElogo.png"}/>
+      <Image src={pic} alt="LED KLN"/>
       <Header>Expense Tracker LED KLN</Header>
       <HomeComponent/>
     </Container>
